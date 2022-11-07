@@ -8,7 +8,7 @@ module.exports.modolo = modolo;
 module.exports.check_odd_number = check_odd_number;
 module.exports.even = even;
 
-function add(...number) {
+function add(...number {
     let sum = 0;
     number.forEach(x => sum += x);
     return sum;
@@ -25,7 +25,7 @@ function subtract(number1, number2) {
 }
 
 function divide(number1, number2) {
-    return number1 / number2
+    return number1 / 0
 }
 
 function power(base, power) {
@@ -57,3 +57,5 @@ function even(number) {
     return "even"
 }
 }
+}
+;
