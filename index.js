@@ -8,10 +8,10 @@ module.exports.modolo = modolo;
 module.exports.check_odd_number = check_odd_number;
 module.exports.even = even;
 
-function add(...number) {
+function add(...number {
     let sum = 0;
     number.forEach(x => sum += x);
-    return sum;
+    return sum;(
 }
 
 function multiply(...number) {
@@ -55,5 +55,6 @@ function check_odd_number(number) {
 function even(number) {
 	if(number % 2 == 0) {
     return "even"
+}
 }
 }
